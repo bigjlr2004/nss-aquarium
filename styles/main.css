@@ -1,0 +1,28 @@
+.pageHeader {
+    text-align: center;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+
+.shop {
+    border: 1px dotted black;
+   
+    
+    flex-basis: 25%;
+}
+
+.representative {
+    display: flex;
+    flex-direction: column;
+}
+
+.representative__lists li {
+    
+margin-left:  25px;
+padding: 5px;
+}
